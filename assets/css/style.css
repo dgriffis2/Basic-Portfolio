@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+
+.full{
+    width: 960px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.name{
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 620px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link{
+    color: gray
+}
+
+ul{
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    width:960px;
+}
+
+.about_me{
+    background-image: url("../images/country-quilt.png");
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #ccc;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 120px;
+    padding-top:60px;
+}
+
+#heading{
+    color: #4aaaa5;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #cccccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.image{
+    float: left;
+    margin-right:20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #4aaaa5;
+    background-color: #666;
+    padding-left: 680px;
+    padding-right: 680px;
+    padding-top:20px;
+}
+
+.text_box{
+    height: 16px;
+    width: 960px;
+}
+
+h3{
+    font-size: 16px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.message{
+    width: 960px;
+}
+
+#button{
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  white;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0.5px;
+}
+
+.project{
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
+    position: relative;
+}
+
+.box{
+    position: relative;
+    z-index: 1;
+}
+
+.box_2{
+    bottom: 40px;
+}
+
+.box_1{
+    top: 150px;
+}
+
+.box_4{
+    left: 300px;
+    bottom: 291px
+}
+
+.box_3{
+    left: 300px;
+    bottom: 100px;
+}
+
+.box_6{
+    bottom: 300px
+}
+
+.box_5{
+    bottom: 112px;
+}
+
+.box_8{
+    bottom: 550px;
+    left:300px;
+}
+
+.box_7{
+    bottom: 362px;
+    left:300px
+}
+
+.box_10{
+    bottom: 550px;
+}
+
+.box_9{
+    bottom: 362px;
+}
+
+.box_set{
+    height: 750px;
+}
+
+.white{
+    background-color: white;
+}

@@ -5,37 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact</title>
 </head>
 
 <body>
-    <div>
-        <header>
-            <h1>Dominic Griffis</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </header>
+    <div class="full">
+
+        <nav class="header">
+            <ul>
+            <span class= "name">Dominic Griffis</span>
+            <a href="index.html" class="link">About</a>
+            <a href="portfolio.html" class="link">Portfolio</a>
+            <a href="contact.html" class="link">Contact</a>                </ul>
+        </nav>
     </div>
 
-    <div>
-        <h2>Contact</h2>
+    <div class="full about_me">
 
-        <h3>Name</h3>
-        <textarea name="name" id="" cols="30" rows="10">Enter Name</textarea>
+        <div>
+            <h2 id="heading">Contact</h2>
+        </div>
 
-        <h3>Email</h3>
-        <textarea name="Email" id="" cols="30" rows="10">Enter Email</textarea>
+        <div>
+            <h3>Name</h3>
+            <textarea name="name" id="" cols="30" rows="10" class="text_box">Enter Name</textarea>
+        </div>
 
-        <h3>Message</h3>
-        <textarea name="Message" id="" cols="30" rows="10">Enter Message</textarea>
+        <div>
+            <h3>Email</h3>
+            <textarea name="Email" id="" cols="30" rows="10" class="text_box">Enter Email</textarea>
+        </div>
 
-        <br>
-        <button>Submit</button>
-     </div>
+        <div>
+            <h3>Message</h3>
+            <textarea name="Message" id="" cols="30" rows="10" class="message">Enter Message</textarea>
+         </div>
+         
+        <div>
+            <br>
+            <button id="button">Submit</button>
+        </div>
+    </div>
 
-     <div>
-         <footer>Copyright</footer>
+     <div class="full">
+         <footer id= "footer">Copyright</footer>
      </div>
 </body>
 
